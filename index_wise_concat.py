@@ -30,3 +30,15 @@ if __name__ == "__main__":
 
 
 
+'''
+Another way to solve the issue is as follow
+
+aList= ['m', 'na', 'i', 'kha']
+bList = ['y', 'me', 's', 'lid']
+
+cList = [item1 + item2 for item in zip(aList,bList)]
+
+
+this way of solving the issue is called list comprehenssion
+
+'''
